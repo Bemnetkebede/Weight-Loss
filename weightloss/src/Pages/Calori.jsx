@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { getCalorieInfo } from "../Services/foodService"
+import { getCalorieInfo } from '../services/foodService'
 
 const Calories = () => {
 const [food, setFood] = useState("")

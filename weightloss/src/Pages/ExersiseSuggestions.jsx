@@ -221,7 +221,7 @@
 
 // export default ExerciseSuggestions
 import { useState } from "react";
-import { getExerciseRecommendations } from "../Services/getExerciseRecommendations";
+import { getExerciseRecommendations } from "../../services/getExerciseRecommendations";
 
 const ExerciseSuggestions = () => {
   const [goal, setGoal] = useState("");

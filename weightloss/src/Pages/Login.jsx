@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Link, useNavigate, useLocation } from "react-router-dom"
-import { loginUser } from "../Services/authServices"
+import { loginUser } from "../services/authServices"
 
 const Login = () => {
   const navigate = useNavigate()
