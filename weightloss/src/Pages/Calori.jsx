@@ -1,7 +1,7 @@
 
 import { useState } from "react"
 import MainLayout from "../layouts/MainLayout"
-import { getCalorieInfo } from "../services/foodService"
+import { getCalorieInfo } from "../Services/foodService"
 
 const Calories = () => {
 const [food, setFood] = useState("")
